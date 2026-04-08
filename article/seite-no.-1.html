@@ -24,8 +24,8 @@
                 ></span
               >
               <span
-                >Updated At：<time datetime="1775687348446"
-                  >2026-04-09 00:29</time
+                >Updated At：<time datetime="1775687487569"
+                  >2026-04-09 00:31</time
                 ></span
               >
             </div>
@@ -40,49 +40,54 @@
 <summary class="jop-noMdConv">Mehr anzeigen</summary>
 <p>Dein Inhalt hier</p>
 </details>
-<blockquote>
-<p>[!NOTE]<br />
-Inhalt</p>
-</blockquote>
-<div class="toggle-block jop-noMdConv">
-  
-  <div style="display:none;margin-left:20px" class="jop-noMdConv">
-    Versteckter Inhalt
-  </div>
-</div>
-<blockquote>
-<p>[!note] Titel<br />
-Inhalt</p>
-</blockquote>
-<details class="jop-noMdConv">
-  <summary class="jop-noMdConv">Klick hier</summary>
-  Versteckter Inhalt
-</details>
 <style class="jop-noMdConv">
-  .toggle-content { display: none; margin-left:20px; }
-  input.toggle:checked + .toggle-content { display: block; }
-</style>
+/* Container Styling */
+details {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
 
-<label for="toggle1" class="jop-noMdConv">Klick hier</label>
-<div class="toggle-content jop-noMdConv">
-  Versteckter Inhalt
-</div>
-<style class="jop-noMdConv">
-  details summary {
-    cursor: pointer;
-    font-weight: bold;
-    padding: 5px;
-    background-color: #f0f0f0;
-  }
-  details[open] summary {
-    color: #007bff;
-  }
+/* Hover Effekt */
+details:hover {
+  background-color: #f1f1f1;
+}
+
+/* Summary Styling */
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.05em;
+  list-style: none; /* Entfernt Standard-Pfeil bei manchen Browsern */
+}
+
+/* Pfeil anpassen */
+details[open] summary::before {
+  content: "▼ ";
+}
+details summary::before {
+  content: "▶ ";
+}
+
+/* Inhalt etwas hervorheben */
+details > *:not(summary) {
+  margin-top: 8px;
+  padding-left: 10px;
+  color: #333;
+  line-height: 1.4em;
+}
 </style>
 <details class="jop-noMdConv">
-  <summary class="jop-noMdConv">Klick hier</summary>
-  Versteckter Inhalt
-</details>
-</div>
+  <summary class="jop-noMdConv">Mein schöner Titel</summary>
+  Hier steht der Inhalt des aufklappbaren Blocks.  
+  Du kannst **Markdown-Formatierung** benutzen,  
+  Listen einfügen oder Links hinzufügen:
+  - Punkt 1
+  - Punkt 2
+</details></div>
       </article>
     </div>
   </body>
