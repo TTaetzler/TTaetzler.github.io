@@ -4,9 +4,35 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 08 Apr 2026 22:51:18 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 22:59:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[Übersicht]]></title>
+            <guid>12823fad2f8a41b7ac4d6c5b9db21264</guid>
+            <pubDate>Wed, 08 Apr 2026 22:54:04 GMT</pubDate>
+            <content:encoded><![CDATA[
+<table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Last edit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/article/seite-no.-2">Seite no. 2</a></td>
+<td>2026-04-08 23:08</td>
+</tr>
+<tr>
+<td><a href="/article/seite-no.-1">Seite no. 1</a></td>
+<td>2026-04-09 00:43</td>
+</tr>
+</tbody>
+</table>
+
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Seite no. 1]]></title>
             <guid>1facd7b47d2d476ba362d5b632002f08</guid>
