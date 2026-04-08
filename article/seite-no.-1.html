@@ -24,8 +24,8 @@
                 ></span
               >
               <span
-                >Updated At：<time datetime="1775687209044"
-                  >2026-04-09 00:26</time
+                >Updated At：<time datetime="1775687348446"
+                  >2026-04-09 00:29</time
                 ></span
               >
             </div>
@@ -44,10 +44,44 @@
 <p>[!NOTE]<br />
 Inhalt</p>
 </blockquote>
+<div class="toggle-block jop-noMdConv">
+  
+  <div style="display:none;margin-left:20px" class="jop-noMdConv">
+    Versteckter Inhalt
+  </div>
+</div>
 <blockquote>
 <p>[!note] Titel<br />
 Inhalt</p>
 </blockquote>
+<details class="jop-noMdConv">
+  <summary class="jop-noMdConv">Klick hier</summary>
+  Versteckter Inhalt
+</details>
+<style class="jop-noMdConv">
+  .toggle-content { display: none; margin-left:20px; }
+  input.toggle:checked + .toggle-content { display: block; }
+</style>
+
+<label for="toggle1" class="jop-noMdConv">Klick hier</label>
+<div class="toggle-content jop-noMdConv">
+  Versteckter Inhalt
+</div>
+<style class="jop-noMdConv">
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f0f0f0;
+  }
+  details[open] summary {
+    color: #007bff;
+  }
+</style>
+<details class="jop-noMdConv">
+  <summary class="jop-noMdConv">Klick hier</summary>
+  Versteckter Inhalt
+</details>
 </div>
       </article>
     </div>
