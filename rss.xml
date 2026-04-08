@@ -4,7 +4,7 @@
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Wed, 08 Apr 2026 22:18:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Apr 2026 22:27:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
         <item>
@@ -15,9 +15,18 @@
 <p><a href="/article/seite-no.-2">Seite no. 2</a></p>
 <p><a title="https://excalidraw.com/#room=d49d099f74e46338a838,gP1-xbnRSnBoMy1ViJYxmg" href="https://excalidraw.com/#room=d49d099f74e46338a838,gP1-xbnRSnBoMy1ViJYxmg">https://excalidraw.com/#room=d49d099f74e46338a838,gP1-xbnRSnBoMy1ViJYxmg</a></p>
 <p><img src="/_resources/b5513e0e7ab5426a95bbb1debf5dcb58.png" /></p>
-<p>:{:{Title<br />
-Body<br />
-}:</p>
+<details class="jop-noMdConv">
+<summary class="jop-noMdConv">Mehr anzeigen</summary>
+<p>Dein Inhalt hier</p>
+</details>
+<blockquote>
+<p>[!NOTE]<br />
+Inhalt</p>
+</blockquote>
+<blockquote>
+<p>[!note] Titel<br />
+Inhalt</p>
+</blockquote>
 ]]></content:encoded>
         </item>
         <item>
